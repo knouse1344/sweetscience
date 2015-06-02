@@ -242,19 +242,22 @@ h1.title a img {
   display: block;
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 1.5em;
   font-weight: 400;
   line-height: 100px;
   height: 100px;
+  font-weight: 700;
+  font-family: 'Cedarville Cursive', cursive;
+  text-transform: lowercase;
 }
-/* line 107, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 110, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li a i {
   font-size: 28px;
   float: left;
   margin-right: 15px;
   line-height: 100px;
 }
-/* line 114, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 117, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li a .home-icon {
   height: 40px;
   width: 40px;
@@ -264,11 +267,11 @@ h1.title a img {
   background-size: 90%;
   background-position: center;
 }
-/* line 126, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 129, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .mobile-header {
   float: right;
 }
-/* line 129, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 132, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .mobile-header .trigram {
   display: none;
 }
