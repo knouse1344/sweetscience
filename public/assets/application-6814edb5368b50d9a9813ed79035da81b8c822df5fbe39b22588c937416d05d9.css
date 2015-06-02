@@ -1,0 +1,242 @@
+/* line 8, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+/* line 15, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container .deli-head {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  z-index: 15;
+  text-align: center;
+}
+/* line 22, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container .deli-head h1 {
+  font-family: 'Ferro Rosso';
+  color: #fff;
+  font-size: 72px;
+}
+/* line 28, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container .deli-head .logo {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background: url("/assets/logo.png") no-repeat;
+  background-size: 100%;
+}
+/* line 37, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container .continue {
+  width: 175px;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: -87px;
+  left: 50%;
+  position: absolute;
+  bottom: 0;
+  opacity: .5;
+}
+/* line 49, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container .continue h4 {
+  margin: 0;
+  padding-top: 25px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+/* line 59, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container .continue i {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 15px;
+}
+/* line 66, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+#slider-container .continue:hover {
+  opacity: 1;
+}
+
+/* line 71, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  height: 100%;
+  position: relative;
+}
+/* line 77, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe .swipe-wrap {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+/* line 82, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe .swipe-wrap .item {
+  float: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* line 88, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe .swipe-wrap .item div {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+/* line 94, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe .swipe-wrap .item .wakeup {
+  background: url("/assets/room_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 100, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe .swipe-wrap .item .turkey {
+  background: url("/assets/bar_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 106, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe .swipe-wrap .item .limo {
+  background: url("/assets/main_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/* line 112, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+.swipe .swipe-wrap .item .soup {
+  background: url("/assets/science_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 19, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+h1.title {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-family: 'Quattrocento Sans' !important;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 29, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+h1.title a {
+  color: #fff;
+  font-family: 'Quattrocento Sans' !important;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  text-decoration: none;
+}
+
+/* line 40, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header {
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  z-index: 500;
+  height: 100px;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+/* line 51, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header h1.logo {
+  line-height: 100px;
+  float: left;
+}
+/* line 56, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list {
+  list-style-type: none;
+  float: right;
+  text-align: right;
+  margin: 0;
+}
+/* line 62, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list li {
+  display: inline-block;
+  height: 100px;
+  vertical-align: top;
+  position: relative;
+  opacity: .25;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100px;
+  cursor: pointer;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+/* line 78, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list li i {
+  font-size: 28px;
+  float: left;
+  margin-right: 15px;
+  line-height: 100px;
+}
+/* line 86, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list li.affix {
+  opacity: 1;
+}
+/* line 90, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list li:hover {
+  opacity: 1;
+}
+/* line 94, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list li a {
+  padding: 0 25px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100px;
+  height: 100px;
+}
+/* line 104, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list li a i {
+  font-size: 28px;
+  float: left;
+  margin-right: 15px;
+  line-height: 100px;
+}
+/* line 111, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .navlinks-list li a .home-icon {
+  height: 40px;
+  width: 40px;
+  top: 30px;
+  position: relative;
+  background: url("/assets/shirt_icon.png") no-repeat;
+  background-size: 90%;
+  background-position: center;
+}
+/* line 123, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .mobile-header {
+  float: right;
+}
+/* line 126, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+#header .mobile-header .trigram {
+  display: none;
+}
