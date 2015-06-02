@@ -27,8 +27,8 @@
   color: #fff;
   padding: .75em 0;
   display: inline-block;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  border-top: 3px solid #8BBCB6;
+  border-bottom: 3px solid #8BBCB6;
 }
 /* line 37, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
 #slider-container .deli-head h3 span {
@@ -105,7 +105,7 @@
 }
 /* line 109, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
 .swipe .swipe-wrap .item .wakeup {
-  background: url("/assets/room_bg.jpg");
+  background: url("/assets/indexbg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -211,7 +211,6 @@ h1.title a img {
   height: 100px;
   vertical-align: top;
   position: relative;
-  opacity: .25;
   color: #fff;
   font-size: 16px;
   font-weight: 400;
@@ -222,22 +221,22 @@ h1.title a img {
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
 }
-/* line 82, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 81, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li i {
   font-size: 28px;
   float: left;
   margin-right: 15px;
   line-height: 100px;
 }
-/* line 90, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 89, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li.affix {
   opacity: 1;
 }
-/* line 94, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 93, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li:hover {
-  opacity: 1;
+  opacity: .5;
 }
-/* line 98, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 97, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li a {
   padding: 0 25px;
   display: block;
@@ -248,14 +247,14 @@ h1.title a img {
   line-height: 100px;
   height: 100px;
 }
-/* line 108, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 107, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li a i {
   font-size: 28px;
   float: left;
   margin-right: 15px;
   line-height: 100px;
 }
-/* line 115, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 114, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .navlinks-list li a .home-icon {
   height: 40px;
   width: 40px;
@@ -265,11 +264,11 @@ h1.title a img {
   background-size: 90%;
   background-position: center;
 }
-/* line 127, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 126, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .mobile-header {
   float: right;
 }
-/* line 130, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+/* line 129, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .mobile-header .trigram {
   display: none;
 }

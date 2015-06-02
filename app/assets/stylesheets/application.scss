@@ -67,7 +67,6 @@ h1.title {
 			height: 100px;
 			vertical-align: top;
 			position: relative;
-			opacity: .25;
 			color: #fff;
 			font-size: 16px;
 			font-weight: 400;
@@ -91,7 +90,7 @@ h1.title {
 		}
 
 		li:hover {
-			opacity: 1;
+			opacity: .5;
 		}
 
 		li a {
