@@ -25,13 +25,17 @@ h1.title {
 	text-transform: uppercase;
 	color: #fff;
 
-	a {		
-		color: #fff;
-		font-family: 'Quattrocento Sans' !important;
+	a {
+		display: block;
+		width: auto;
 		margin: 0;
 		padding: 0;
-		display: inline;
 		text-decoration: none;
+
+		img {
+			width: 100px;
+			display: block;
+		}
 	}
 }
 
