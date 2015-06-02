@@ -129,12 +129,7 @@
 }
 
 @media (max-width: 992px) {
-  /* line 141, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
-  #header {
-    display: none;
-  }
-
-  /* line 149, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
+  /* line 145, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/main.scss */
   #slider-container .deli-head h3 {
     font-family: 'Times New Roman', serif;
     font-style: italic;
@@ -178,12 +173,12 @@ h1.title a {
 /* line 36, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 h1.title a img {
   width: 100px;
-  display: block;
+  display: inline-block;
 }
 
 /* line 44, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header {
-  position: fixed;
+  position: absolute;
   background: transparent;
   width: 100%;
   z-index: 500;
@@ -274,4 +269,37 @@ h1.title a img {
 /* line 132, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
 #header .mobile-header .trigram {
   display: none;
+}
+
+@media (max-width: 992px) {
+  /* line 143, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+  #header .mobile-nav {
+    padding: 0;
+  }
+  /* line 147, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+  #header h1.logo {
+    float: none;
+  }
+  /* line 150, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+  #header h1.logo a {
+    text-align: center;
+  }
+  /* line 155, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+  #header .navlinks-list {
+    padding: 0;
+    text-align: center;
+    float: none;
+    margin-top: 1.75em;
+  }
+  /* line 161, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+  #header .navlinks-list li {
+    height: auto;
+  }
+  /* line 164, /Users/Bryan/Desktop/projects/sweetscience/app/assets/stylesheets/application.scss */
+  #header .navlinks-list li a {
+    height: auto;
+    line-height: normal;
+    padding: 0 .5em;
+    font-size: 1.15em;
+  }
 }

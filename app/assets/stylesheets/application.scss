@@ -34,14 +34,14 @@ h1.title {
 
 		img {
 			width: 100px;
-			display: block;
+			display: inline-block;
 		}
 	}
 }
 
 
 #header {
-	position: fixed;
+	position: absolute;
 	background: transparent;
 	width: 100%;
 	z-index: 500;
@@ -130,6 +130,47 @@ h1.title {
 
 		.trigram {
 			display: none;
+		}
+	}
+}
+
+
+@media (max-width: 992px) {
+
+	#header {
+
+		.mobile-nav {
+			padding: 0;
+		}
+
+		h1.logo {
+			float: none;
+
+			a {
+				text-align: center;
+			}
+		}
+
+		.navlinks-list {
+			padding: 0;
+			text-align: center;
+			float: none;
+			margin-top: 1.75em;
+
+			li {
+				height: auto;
+
+				a {
+					height: auto;
+					line-height: normal;
+					padding: 0 .5em;
+					font-size: 1.15em;
+
+					span {
+
+					}
+				}
+			}
 		}
 	}
 }
