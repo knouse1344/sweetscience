@@ -1,0 +1,119 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+#slider-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+	.deli-head {
+		position: absolute;
+		top: 30%;
+		width: 100%;
+		z-index: 15;
+		text-align: center;
+
+		h1 {
+			font-family: 'Ferro Rosso';
+			color: #fff;
+			font-size: 72px;
+		}
+
+		.logo {
+			width: 300px;
+			height: 300px;
+			margin: auto;
+			background: url('/assets/shirt_sm.png') no-repeat;
+			background-size: 100%;
+		}
+	}
+
+	.continue {
+		width: 175px;
+		height: 100px;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		margin-left: -87px;
+		left: 50%;
+		position: absolute;
+		bottom: 0;
+		opacity: .5;
+
+		h4 {
+			margin: 0;
+			padding-top: 25px;
+			color: #fff;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 1.3em;
+			text-transform: uppercase;
+		}
+
+		i {
+			color: #fff;
+			font-size: 20px;
+			padding-top: 15px;
+		}
+	}
+
+	.continue:hover {
+		opacity: 1;
+	}
+}
+
+.swipe {
+	overflow: hidden;
+	visibility: hidden;
+	height: 100%;
+	position: relative;
+
+	.swipe-wrap {
+		overflow: hidden;
+		position: relative;
+		height: 100%;
+
+	  	.item {
+	  		float:left;
+		    width:100%;
+		    height: 100%;
+		    position: relative;
+
+		    div {
+		    	width: 100%;
+		    	height: 100%;
+		    	opacity: 1;
+		    }
+
+		    .wakeup {
+		    	background: url('/assets/wakeupcall.jpg');
+		    	background-size: cover;
+		    	background-position: center;
+		    }
+
+		    .turkey {
+		    	background: url('/assets/turkey.jpg');
+		    	background-size: cover;
+		    	background-position: center;
+		    }
+
+		    .limo {
+		    	background: url('/assets/deli.jpg');
+		    	background-size: cover;
+		    	background-position: center;
+		    }
+
+		    .soup {
+		    	background: url('/assets/soup.jpg');
+		    	background-size: cover;
+		    	background-position: center;
+		    }
+		}
+	}
+}
