@@ -26,10 +26,10 @@
 		}
 
 		.logo {
-			width: 300px;
-			height: 300px;
+			width: 400px;
+			height: 400px;
 			margin: auto;
-			background: url('/assets/shirt_sm.png') no-repeat;
+			background: url('/assets/logo.png') no-repeat;
 			background-size: 100%;
 		}
 	}
@@ -92,25 +92,25 @@
 		    }
 
 		    .wakeup {
-		    	background: url('/assets/wakeupcall.jpg');
+		    	background: url('/assets/room_bg.jpg');
 		    	background-size: cover;
 		    	background-position: center;
 		    }
 
 		    .turkey {
-		    	background: url('/assets/turkey.jpg');
+		    	background: url('/assets/bar_bg.jpg');
 		    	background-size: cover;
 		    	background-position: center;
 		    }
 
 		    .limo {
-		    	background: url('/assets/deli.jpg');
+		    	background: url('/assets/main_bg.jpg');
 		    	background-size: cover;
 		    	background-position: center;
 		    }
 
 		    .soup {
-		    	background: url('/assets/soup.jpg');
+		    	background: url('/assets/science_bg.jpg');
 		    	background-size: cover;
 		    	background-position: center;
 		    }
